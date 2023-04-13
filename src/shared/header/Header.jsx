@@ -34,6 +34,7 @@ function Header() {
                                 <HeaderLink to="/" name="Home" />
                                 <HeaderLink to="#" name="About" />
                                 <HeaderLink to="#" name="Contact Us" />
+                                <HeaderLink to="#" name="Contact Us" />
                             </ul>
                         </div>
                     </nav>
