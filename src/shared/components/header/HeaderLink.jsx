@@ -6,7 +6,7 @@ function HeaderLink({ to = '', name = '' }) {
   }
   return (
     <li>
-        <a href={to} className="navbar-link" data-nav-link>{name}</a>
+      <a href={to} className="navbar-link">{name}</a>
     </li>
   )
 }

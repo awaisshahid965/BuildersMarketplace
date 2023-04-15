@@ -14,9 +14,9 @@ function Header() {
   }
 
   return (
-    <header className="header" data-header>
+    <header className="header">
       <HeaderContactBar />
-      <div ref={headerOverlayRef} className="overlay" data-overlay></div>
+      <div ref={headerOverlayRef} className="overlay"></div>
 
       <div className="header-bottom">
         <div className="container">

@@ -4,14 +4,13 @@ import HeaderLink from './HeaderLink'
 
 function HeaderNav({ headerNavbarRef, toggleNavbar }) {
   return (
-    <nav className="navbar" data-navbar ref={headerNavbarRef}>
+    <nav className="navbar" ref={headerNavbarRef}>
       <div className="navbar-top">
         <a href="/" className="logo">
           <AppLogo />
         </a>
         <button
           className="nav-close-btn"
-          data-nav-close-btn
           aria-label="Close Menu"
           onClick={toggleNavbar}
         >

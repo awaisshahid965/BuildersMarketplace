@@ -15,7 +15,7 @@ function HeaderMenu({ toggleNavbar }) {
                 <ion-icon name="cart-outline"></ion-icon>
                 <span>Cart</span>
             </button>
-            <button className="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu" onClick={toggleNavbar}>
+            <button className="header-bottom-actions-btn" aria-label="Open Menu" onClick={toggleNavbar}>
                 <ion-icon name="menu-outline"></ion-icon>
                 <span>Menu</span>
             </button>
