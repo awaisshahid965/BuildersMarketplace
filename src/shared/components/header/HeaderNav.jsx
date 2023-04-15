@@ -1,5 +1,5 @@
 import React from 'react'
-import AppLogo from '../icons/AppLogo'
+import AppLogo from '../../icons/AppLogo'
 import HeaderLink from './HeaderLink'
 
 function HeaderNav({ headerNavbarRef, toggleNavbar }) {

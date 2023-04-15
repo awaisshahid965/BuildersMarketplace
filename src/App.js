@@ -1,4 +1,4 @@
-import Header from "./shared/header/Header";
+import Header from "./shared/components/header/Header";
 
 function App() {
   return (

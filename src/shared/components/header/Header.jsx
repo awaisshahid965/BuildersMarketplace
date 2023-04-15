@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import AppLogo from "../icons/AppLogo";
+import AppLogo from "../../icons/AppLogo";
 import HeaderContactBar from "./HeaderContactBar";
 import HeaderMenu from "./HeaderMenu";
 import HeaderNav from "./HeaderNav";
