@@ -26,6 +26,7 @@
   --raisin-black-2: hsl(229, 17%, 19%);
   --yellow-green: hsl(89, 72%, 45%);
   --primary-color: #3948db;
+  --primary-transparent: hsl(252deg 100% 62% / 10%);
   --cultured-1: hsl(0, 0%, 93%);
   --cultured-2: hsl(192, 24%, 96%);
   --misty-rose: hsl(7, 56%, 91%);
@@ -207,7 +208,7 @@ button, a { transition: var(--transition); }
   font-size: var(--fs-5);
   font-weight: var(--fw-600);
   padding: 5px 20px;
-  background: hsla(9, 100%, 62%, 0.1);
+  background: var(--primary-transparent);
   width: max-content;
   border-radius: 50px;
   margin-inline: auto;
@@ -462,11 +463,11 @@ button, a { transition: var(--transition); }
   margin-bottom: 20px;
 }
 
-.hero-subtitle ion-icon { color: var(--primary-color); }
+.hero-subtitle ion-icon { color: var(--primary-color); font-size: 26px; }
 
 .hero-subtitle span {
   color: var(--dark-jungle-green);
-  font-size: var(--fs-5);
+  font-size: 14px;
   font-weight: var(--fw-700);
 }
 
@@ -534,7 +535,7 @@ button, a { transition: var(--transition); }
 }
 
 .about-item-icon {
-  background: var(--misty-rose);
+  background: var(--primary-transparent);
   height: 45px;
   min-width: 45px;
   border-radius: 50%;
@@ -553,7 +554,7 @@ button, a { transition: var(--transition); }
 }
 
 .about .callout {
-  background: hsla(7, 78%, 53%, 0.05);
+  background: var(--primary-transparent);
   color: var(--cadet);
   font-size: var(--fs-5);
   font-weight: var(--fw-500);
