@@ -16,7 +16,7 @@ function Header() {
   return (
     <header className="header">
       <HeaderContactBar />
-      <div ref={headerOverlayRef} className="overlay"></div>
+      <div onClick={toggleNavbar} ref={headerOverlayRef} className="overlay"></div>
 
       <div className="header-bottom">
         <div className="container">
