@@ -1113,7 +1113,16 @@ button, a { transition: var(--transition); }
 
 .copyright {
   font-size: var(--fs-5);
-  text-align: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .copyright {
+    display: block;
+    text-align: center;
+  }
 }
 
 .copyright a { display: inline-block; }
