@@ -590,6 +590,7 @@ button, a { transition: var(--transition); }
 }
 
 .service-card {
+  max-width: 370px;
   position: relative;
   background: var(--white);
   text-align: center;
@@ -984,7 +985,7 @@ button, a { transition: var(--transition); }
 \*-----------------------------------*/
 
 .cta {
-  background: linear-gradient(to bottom, var(--white) 50%, var(--raisin-black-1) 50%);
+  background: linear-gradient(to bottom, var(--cultured-2) 50%, var(--raisin-black-1) 50%);
 }
 
 .cta-card {
@@ -1009,6 +1010,7 @@ button, a { transition: var(--transition); }
   color: var(--white);
   font-size: var(--fs-5);
   line-height: 1.8;
+  max-width: 600px;
 }
 
 .cta-btn {

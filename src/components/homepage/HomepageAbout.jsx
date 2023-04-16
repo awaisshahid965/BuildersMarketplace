@@ -2,6 +2,7 @@ import React from 'react'
 import IconWithLabel from '../../shared/ui/icon-with-label/IconWithLabel'
 import Blockquote from '../../shared/ui/blockquote/Blockquote'
 import Button from '../../shared/ui/button/Button'
+import Badge from '../../shared/ui/badge/Badge'
 
 function HomepageAbout() {
   return (
@@ -13,7 +14,7 @@ function HomepageAbout() {
         </figure>
 
         <div className="about-content">
-          <p className="section-subtitle">About Us</p>
+          <Badge title="About Us" />
           <h2 className="h2 section-title">The Leading Real Estate Rental Marketplace.</h2>
           <p className="about-text">
             Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage,
