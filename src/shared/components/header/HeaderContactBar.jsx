@@ -42,7 +42,6 @@ function HeaderContactBar() {
               </a>
             </li>
           </ul>
-          <button className="header-top-btn">Add Listing</button>
         </div>
       </div>
     </div>
