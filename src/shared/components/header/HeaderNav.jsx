@@ -1,6 +1,6 @@
-import React from 'react'
-import AppLogo from '../../icons/AppLogo'
-import HeaderLink from './HeaderLink'
+import React from "react";
+import AppLogo from "../../icons/AppLogo";
+import HeaderLink from "./HeaderLink";
 
 function HeaderNav({ headerNavbarRef, toggleNavbar }) {
   return (
@@ -20,12 +20,12 @@ function HeaderNav({ headerNavbarRef, toggleNavbar }) {
       <div className="navbar-bottom">
         <ul className="navbar-list">
           <HeaderLink to="/" name="Home" />
-          <HeaderLink to="#" name="About" />
-          <HeaderLink to="#" name="Contact Us" />
+          <HeaderLink to="/#about" name="About" />
+          <HeaderLink to="/builders" name="Builders" />
         </ul>
       </div>
     </nav>
-  )
+  );
 }
 
-export default HeaderNav
+export default HeaderNav;
