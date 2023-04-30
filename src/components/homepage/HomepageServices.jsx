@@ -4,11 +4,11 @@ import Badge from "../../shared/ui/badge/Badge";
 
 function HomepageServices() {
   return (
-    <section class="service" id="service">
-      <div class="container">
+    <section className="service" id="service">
+      <div className="container">
         <Badge title="Our Services" />
-        <h2 class="h2 section-title">Our Main Focus</h2>
-        <div class="service-list">
+        <h2 className="h2 section-title">Our Main Focus</h2>
+        <div className="service-list">
           <ServiceCard
             imgSrc="/images/service-1.png"
             title="Home Renovations"
