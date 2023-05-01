@@ -1,0 +1,22 @@
+.btn {
+    position: relative;
+    background: var(--primary-color);
+    color: var(--white);
+    font-family: var(--ff-poppins);
+    font-size: var(--fs-5);
+    text-transform: var(--text-transform, capitalize);
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    padding: 10px 20px;
+    z-index: 1;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.btn:is(:hover, :focus) {
+    background-color: var(--primary-color-dark);
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}

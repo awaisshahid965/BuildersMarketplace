@@ -26,6 +26,7 @@
   --raisin-black-2: hsl(229, 17%, 19%);
   --yellow-green: hsl(89, 72%, 45%);
   --primary-color: #3948db;
+  --primary-color-dark: #212d97;
   --primary-color-light: #969eeb;
   --primary-transparent: hsl(252deg 100% 62% / 10%);
   --cultured-1: hsl(0, 0%, 93%);
@@ -35,6 +36,7 @@
   --seashell: hsl(8, 100%, 97%);
   --cadet: hsl(200, 15%, 43%);
   --white: hsl(0, 0%, 100%);
+  --light: #f1f6f3;
   --black: hsl(0, 0%, 0%);
   --opal: hsl(180, 20%, 62%);
 
@@ -102,12 +104,14 @@ a {
   text-decoration: none;
 }
 
-a,
 img,
-span,
-button,
 ion-icon {
   display: block;
+}
+
+a,
+button {
+  display: inline-block;
 }
 
 button {
@@ -191,40 +195,6 @@ a {
 
 .h3>a {
   color: inherit;
-}
-
-.btn {
-  position: relative;
-  background: var(--primary-color);
-  color: var(--white);
-  font-family: var(--ff-poppins);
-  font-size: var(--fs-5);
-  text-transform: var(--text-transform, capitalize);
-  border: 1px solid var(--primary-color);
-  padding: 10px 20px;
-  z-index: 1;
-}
-
-.btn:is(:hover, :focus) {
-  background: var(--black);
-  color: var(--dark-jungle-green);
-  border-color: var(--black);
-}
-
-.btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: var(--white);
-  transition: var(--transition);
-  z-index: -1;
-}
-
-.btn:is(:hover, :focus)::before {
-  width: 100%;
 }
 
 .w-100 {
